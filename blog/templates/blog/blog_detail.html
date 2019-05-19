@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+	<!-- Header section -->
+    {% include 'header.html' %}
+	<!-- Header section end -->
+
+	<!-- Page top section -->
+	<section class="page-top-section single-blog set-bg " data-setbg="{% static 'img/page-top-bg.jpg' %}">
+		<div class="container text-white">
+			<div class="row">
+				<div class="col-xl-8 offset-lg-2">
+					<h2>{{object.blog_headline}}</h2>
+					<a href=""><i class="fa fa-user"></i>{{object.author}}</a>
+					<a href=""><i class="fa fa-clock-o"></i>{{object.blog_time}}</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  Page top end -->
+
+	<!-- Breadcrumb -->
+	<div class="site-breadcrumb">
+		<div class="container">
+			<a href=""><i class="fa fa-home"></i>Home</a>
+			<span><i class="fa fa-angle-right"></i>Blog Details</span>
+		</div>
+	</div>
+
+	<!-- page -->
+	<section class="page-section single-blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 blog-share">
+					<h5>Share</h5>
+					<div class="share-links">
+						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+						<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+						<a href="#" class="pin"><i class="fa fa-thumb-tack"></i></a>
+					</div>
+				</div>
+				<div class="col-md-10 singel-blog-content">
+					<img src="{{object.image.url}}" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus, nunc sed elementum volutpat, nibh tortor auctor purus, vitae placerat quam dolor ut tellus. Nulla metus elit, mollis non accumsan eget, aliquaman lobortis dui. Nunc non rutrum lacus. Etiam ut hendrerit orci force air usce mollis, eros at pulvinar egestas, diam antis lacus hendrerit nunc, quis interdum nunc elit vel maris. Ut sagittis sagittis lacus id rutrum. Curabitur eleifend placerat nulla, vitae euismod magna imperdiet id. Ut in tellus dignissim, accum augue et, rhoncus justo. Praesent pellentesque metus nec interdum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis mi varius, rutrum nulla ut, porttitor quam. Nunc sed nunc et lorem malesuada aliquam at imperdiet pellentesque sollicitudin. Sed tempor placerat pellentesque.</p>
+					<p>Praesent at mattis massa. Quisque mattis fermentum risus. Sed utca fringilla urna, eget feugiat quam. Aenean elementum arcu eget diam laoreet egestas. Etiam iaculis magna ut urna accumsan fermentum. Etiam posuere sed tellus in star sollicitudin. Donec aliquaman gravida risus, sit amet tempor felis ullamcorper vel. Sed sit amet commodo ronan ligula, eu porta libero. Proin auctor lectus nec sapien viverra, eu accusan est feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ut rutrum lectus. Pellentesque sit amet quam vitae denim elementum sagittis. Mauris tempus nunc orci, porttitor ullamcorper tellus venenatis vitae. Nam dictum lectus massa, rocket dapibus erat dignissim nec. Nullam tincidunt orci gravida vulputate commodo.</p>
+					<blockquote>
+						{{object.article_highlight}}
+					</blockquote>
+					<p>Vestibulum condimentum purus eu nisl egestas, ut vulputate nisl mattis. Praesent vulputate id ligula ut tristique. Quisque eu eleifend ex, nectora condimentum massa. Integer in ultrices ligula, non faucibus ipsum. Phasellus quam odio, faucibus at erat vel, fermentum tristique ex. Praesent sollicitudin at turpis vitae molestie. Integer ut dapibus mauris. Donec tincidunt sem non odio congue, in pharetra magna eleifend. Sed ultricies ipsum nec sodales condimentum. Cras at urna interdum mi aliquet feugiat quis eget purus. Curabitur feugiat laoreet ornare. Etiam tincidunt semper ex. Sed luctus tellus feugiat ligula luctus, eget imperdiet elit malesuada. </p>
+					<p>Suspendisse vehicula neque non mi consequat laoreet. Aenean at mauris hendrerit ante commodo dignissim et eu dolor. Proin non ipsum starlord scelerisque, maximus erat eget, rutrum ex. Vivamus pulvinar ornare egestas. Suspendisse finibus eros eget purus vulputate, sit amet ornare ipsum sollicitudin. Praesent ornare lacinia elementum. Morbi vitae orci quis orci aliquam porta. Proin eget gamora viverra lacus, in tincidunt leo. In id urna pharetra tellus consectetur condimentum. Mauris pulvinar orci et dolor tristique mollis. Praesent auctor ut est congue dictum.</p>
+					<div class="blog-tags">
+						<p>Tag:</p>
+						<a href="#">#news,</a>
+						<a href="#">#realestate,</a>
+						<a href="#">#investment,</a>
+						<a href="#"> #price,</a>
+						<a href="#">#market</a>
+					</div>
+					<div class="post-author">
+						<div class="pa-thumb set-bg" data-setbg="img/blog/author.jpg"></div>
+						<div class="pa-content">
+							<h4>AMANDA SEYFIRED</h4>
+							<p>Mauris lectus justo, tempor ac auctor at, congue id erat. Pellentesque et massa odio. Fusce vel fermentum tortor, nec gravida ligula. Vivamus at malesuada tortor, in posuere ex.</p>
+						</div>
+					</div>
+					<!-- Comment Section -->
+					{% include 'blog/comments.html' %}
+					<!-- Comment section end -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- page end-->
+
+
+	<!-- Clients section -->
+    {% include 'clients.html' %}
+	<!-- Clients section end -->
+
+
+	<!-- Footer section -->
+    {% include 'footer.html' %}
+	<!-- Footer section end -->
+
+{% endblock %}

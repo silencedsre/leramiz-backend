@@ -1,0 +1,40 @@
+<!-- Team Section -->
+<section class="team-section spad pb-0">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>OUR AGENTS</h3>
+            <p>Our directory of real estate agents who can help you</p>
+        </div>
+
+
+        <div class="row">
+
+             {% for team in object_list %}
+
+            <div class="col-lg-3 col-md-6">
+                <div class="team-member">
+                    <div class="member-pic">
+                        <img src="{{team.image.url}}" alt="#">
+                        <div class="member-social">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h5>{{ team.name }}</h5>
+                        <span>{{ team.role }}</span>
+                        <div class="member-contact">
+                            <p><i class="fa fa-phone"></i>{{ team.contact }}</p>
+                            <p><i class="fa fa-envelope"></i>{{ team.email }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+<!-- Team section end -->

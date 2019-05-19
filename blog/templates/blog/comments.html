@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<!-- Comment Section -->
+{% block script %}
+
+<script>
+    $(document).ready(function(data){
+    console.log("works")
+    })
+
+</script>
+
+{% endblock %}
+
+
+
+<div class="container">
+<div class="comment-warp">
+    <h4 class="comment-title">3 Comments</h4>
+    {% for comments in object_list %}
+    <ul class="comment-list">
+        <li>
+            <div class="comment">
+                <div class="comment-avator set-bg" data-setbg="{{comments.image.url}}"></div>
+                <div class="comment-content">
+                    <h5>{{comments.author}} <span>24 Mar 2018</span></h5>
+                    <p>{{comments.comment}}</p>
+                    <a href="" class="c-btn">Like</a>
+                    <a href="" class="c-btn">Reply</a>
+                </div>
+            </div>
+            <ul class="replay-comment-list">
+
+                <li>
+                    <div class="comment">
+                        <div class="comment-avator set-bg" data-setbg="img/blog/comment/2.jpg"></div>
+                        <div class="comment-content">
+                            <h5>Peter Simon<span>25 Jun 2018</span></h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore iron man dolore magna aliqua. fpurus vulputate, sit amet ornare ipsum. Ut enim ad minim veniam. Donec tincidunt sem non odio congue.</p>
+                            <a href="" class="c-btn">Like</a>
+                            <a href="" class="c-btn">Reply</a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+        </li>
+    </ul>
+    {% endfor %}
+    <!-- Comment Form -->
+
+    <!-- Comment Form end-->
+</div>
+</div>
+<!-- Comment Section End here -->
+
+{% endblock %}

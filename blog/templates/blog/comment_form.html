@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<!--<div class="container">-->
+    <!-- Comment Form -->
+    <div class="comment-form-warp">
+        <h4 class="comment-title">Leave Your Comment</h4>
+        <form class="comment-form" method="post" action="">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-md-6">
+                    {{form.name}}
+                </div>
+                <div class="col-md-6">
+                    {{form.email}}
+                </div>
+                <div class="col-lg-9">
+                    {{form.comment}}
+                    <button class="site-btn" type="submit" formmethod="post">SEND COMMENT</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<!-- Comment Form end-->
+<!--</div>-->
+
+{% endblock %}

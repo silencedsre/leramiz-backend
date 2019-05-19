@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+	<!-- Page Preloder -->
+    {% load static %}
+
+    {% block body %}
+	<!-- Header section -->
+    {% include 'header.html' %}
+	<!-- Header section end -->
+
+	<!-- Page top section -->
+	<section class="page-top-section set-bg" data-setbg="{% static 'img/page-top-bg.jpg' %}">
+		<div class="container text-white">
+			<h2>Blog grid</h2>
+		</div>
+	</section>
+	<!--  Page top end -->
+
+	<!-- Breadcrumb -->
+	<div class="site-breadcrumb">
+		<div class="container">
+			<a href=""><i class="fa fa-home"></i>Home</a>
+			<span><i class="fa fa-angle-right"></i>Blog Grid</span>
+		</div>
+	</div>
+
+	<!-- page -->
+	<section class="page-section blog-page">
+		<div class="container">
+			<div class="row">
+				<!-- blog post -->
+                {% for blog in object_list %}
+				<div class="col-lg-4 col-md-6 blog-item">
+					<img src="{{ blog.blog_image.url }}" alt="">
+					<h5><a href="{{ blog.get_absolute_url }}">{{ blog.blog_headline }}</a></h5>
+					<div class="blog-meta">
+						<span><i class="fa fa-user"></i>{{  blog.author }}</span>
+						<span><i class="fa fa-clock-o"></i>{{ blog.blog_time }}</span>
+					</div>
+					<p>{{ blog.blog_article|truncatewords:20 }}</p>
+				</div>
+                {% endfor %}
+				<!-- Blog Post end -->
+
+			</div>
+			<div class="site-pagination">
+				<span>1</span>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#"><i class="fa fa-angle-right"></i></a>
+			</div>
+		</div>
+	</section>
+	<!-- page end -->
+
+
+	<!-- Clients section -->
+    {% include 'clients.html' %}
+	<!-- Clients section end -->
+
+
+	<!-- Footer section -->
+    {% include 'footer.html' %}
+	<!-- Footer section end -->
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block body %}
+	 <!--Page Preloder-->
+	<!--<div id="preloder">-->
+		<!--<div class="loader"></div>-->
+	<!--</div>-->
+
+	 <!-- Header section  -->
+    {%include 'header.html'%}
+	 <!-- Hero section -->
+    {% include 'hero.html' %}
+	 <!-- Filter form section -->
+    {% include 'filter_form.html' %}
+	<!-- Properties section -->
+    {% include 'properties.html' %}
+	<!-- Services section -->
+    {% include 'services.html' %}
+	<!-- feature section -->
+	{% include 'feature.html' %}
+    <!-- feature category section -->
+    {% include 'feature_category.html' %}
+	<!-- Gallery section -->
+    {% include 'gallery.html' %}
+	<!-- Review section -->
+    {% include 'review.html' %}
+	<!-- Blog section -->
+    {% include 'blog.html' %}
+	<!-- Clients section -->
+    {% include 'clients.html' %}
+	<!-- Footer section -->
+    {% include 'footer.html' %}
+{% endblock %}

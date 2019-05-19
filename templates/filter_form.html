@@ -1,0 +1,17 @@
+{% load static %}
+<!-- Filter form section -->
+	<div class="filter-search">
+		<div class="container">
+			<form class="filter-form" method="get" action="{% url 'search:query' %}">
+				<input type="text" placeholder="Enter a street name, address number or keyword" name="q">
+				<select>
+					<option value="City">City</option>
+				</select>
+				<select>
+					<option value="City">State</option>
+				</select>
+				<button class="site-btn fs-submit" type="submit">SEARCH</button>
+			</form>
+		</div>
+	</div>
+	<!-- Filter form section end -->
