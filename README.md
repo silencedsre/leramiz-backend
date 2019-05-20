@@ -3,7 +3,7 @@ A django backend for leramiz template at colorib.com
 
 python -m venv virtualenvironmentname
 
-virtualenvironmentname/Scipts/activate.bat
+virtualenvironmentname/Scripts/activate.bat
 
 pip install -r requirements.txt
 
