@@ -1,10 +1,27 @@
 # leramiz-backend
 A django backend for leramiz template at colorib.com
 
-python -m venv virtualenvironmentname
+I have included several features which are as follows:
+#listview
+#detailview
+#search functionality added
+#working forms
+#working apis created, some work remaining at frontend (ajax calls)
+#some minor works remaining
 
-virtualenvironmentname/Scripts/activate.bat
+To get started:
 
-pip install -r requirements.txt
+Create a virtual environment in your working directory
+#python -m venv virtualenvironmentname
 
-python manage.py runserver
+Activate your virtual environment
+#virtualenvironmentname/Scripts/activate.bat
+
+install requirements
+#pip install -r requirements.txt
+
+make necessary migrations
+#python manage.py makemigrations
+
+run the server
+#python manage.py runserver
