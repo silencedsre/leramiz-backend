@@ -4,6 +4,7 @@ A django backend for leramiz template at colorib.com
 I have included several features which are as follows:
 <h5>listview<br/>
 detailview<br/>
+login and register user and verification <br/>
 search functionality added<br/>
 working forms<br/>
 working apis created<br/>
