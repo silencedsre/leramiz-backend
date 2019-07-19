@@ -17,12 +17,6 @@ from django.views.generic import (
 def index(request):
     return render(request, "index.html")
 
-class HousingList(ListView):
-    model = Housing
-
-class HousingDetail(DetailView):
-    model = Housing
-
 def register_user(request):
     form = UserRegisierForm(request.POST or None)
     if form.is_valid():
