@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="931f1ffc-feff-4ae7-a652-e89a4a8b2cfb" name="Default Changelist" comment="Create login/register form">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/leramiz-frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/leramiz-frontend/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/leramiz-frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/leramiz-frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/img/propertie/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/img/propertie/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/img/propertie/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leramiz-frontend/src/img/propertie/4.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +25,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leramiz-frontend/src/components/Hero.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/services.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="912">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
               <folding>
                 <marker date="1558266733533" expanded="true" signature="1143:1241" ph="..." />
               </folding>
@@ -189,55 +190,6 @@
               <item name="leramiz" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leramiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="leramiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (django-2.2.1) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="leramiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (django-2.2.1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django-2.2.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leramiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (django-2.2.1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django-2.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leramiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (django-2.2.1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django-2.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="leramiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leramiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (django-2.2.1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django-2.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="leramiz" type="462c0819:PsiDirectoryNode" />
-              <item name="leramiz-frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leramiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (django-2.2.1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django-2.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="leramiz" type="462c0819:PsiDirectoryNode" />
-              <item name="leramiz-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -308,7 +260,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12888302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -401,13 +352,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Create login/register form" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/blog_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -778,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding>
             <marker date="1558266733533" expanded="true" signature="1143:1241" ph="..." />
           </folding>
@@ -788,9 +732,12 @@
     <entry file="file://$PROJECT_DIR$/leramiz-frontend/src/components/Hero.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
